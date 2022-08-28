@@ -8,9 +8,11 @@ This project is a collection of various scenes created with [Manim](https://gith
 
 ## Usage
 
-manim (-r width,height) -pql scene.py Class
+* image: manim (-r width,height) -s scene.py Class
+* video: manim (-r width,height) -p scene.py Class
 
-* Example:
+## Example:
 ```
-manim -r 500,500 -pql monogram.py CreateMonogram
+manim -r 500,500 -s monogram.py CreateMonogram
+manim -r 500,500 -p monogram.py CreateMonogram
 ```
